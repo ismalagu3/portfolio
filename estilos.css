@@ -1,43 +1,18 @@
 body{
     background-color: lightgrey;
-    padding-top: 15%;
     margin: 0;
     height: 100%;
 }
 
-div{
-    margin: 0;
-}
-
-h1{
+#titulo{
+    padding-top: 15%;
     color: forestgreen;
     text-align: center;
     margin-left: 37%;
     width:25%;
-    transition: 5s;
+    transition: 3s;
 }
 
-h1:hover{
-    transform: scale(2);
+#titulo:hover{
+    transform: scale(1.5);
 }
-
-button{
-    background-color: aquamarine;
-}
-
-#ASGBD{
-    width: 6%;
-    border: 0;
-    position: absolute;
-    top: 41%;
-    left: 2%;
-}
-
-#IAW{
-    width: 6%;
-    border: 0;
-    position: absolute;
-    top: 41%;
-    right: 2%;
-}
-
