@@ -4,14 +4,23 @@ body{
     margin: 0;
 }
 
+div{
+    margin: 0;
+}
+
 h1{
     color: forestgreen;
     text-align: center;
     margin-left: 37%;
-    width:25%
+    width:25%;
+    transition: 5s;
 }
 
 h1:hover{
     transform: scale(2);
-    animation: 2s;
 }
+
+{
+
+}
+
