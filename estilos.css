@@ -1,4 +1,17 @@
+body{
+    background-color: lightgrey;
+    padding-top: 15%;
+    margin: 0;
+}
+
 h1{
-    color:red;
+    color: forestgreen;
     text-align: center;
+    margin-left: 37%;
+    width:25%
+}
+
+h1:hover{
+    transform: scale(2);
+    animation: 2s;
 }
