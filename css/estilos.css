@@ -1,0 +1,18 @@
+body{
+    background-color: lightgrey;
+    margin: 0;
+    height: 100%;
+}
+
+#titulo{
+    padding-top: 15%;
+    color: forestgreen;
+    text-align: center;
+    margin-left: 37%;
+    width:25%;
+    transition: 3s;
+}
+
+#titulo:hover{
+    transform: scale(1.5);
+}
