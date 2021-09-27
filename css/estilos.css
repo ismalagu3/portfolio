@@ -16,3 +16,20 @@ body{
 #titulo:hover{
     transform: scale(1.5);
 }
+
+nav{
+    position: fixed;
+    bottom: 2%;
+    right: 44%;
+    background-color: lightblue;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+    list-style-type: none;
+}
