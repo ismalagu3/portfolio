@@ -20,8 +20,9 @@ body{
 nav{
     position: fixed;
     bottom: 2%;
-    right: 44%;
+    right: 30%;
     background-color: lightblue;
+    width: 20%;
 }
 
 ul{
@@ -32,4 +33,11 @@ ul{
 li{
     display: inline-block;
     list-style-type: none;
+    padding-left: 4%;
+    padding-right: 4%;
 }
+
+ul li a img{
+    height: 60px;
+}
+
