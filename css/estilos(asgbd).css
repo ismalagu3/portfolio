@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body{
+    background-color: gray;
+}
+
+h1{
+    font-family: "Balsamiq sans", cursive;
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: "Dosis", sans-serif;
+    color: white;
+    text-align: center;
+}
