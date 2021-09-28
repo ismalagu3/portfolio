@@ -1,33 +1,41 @@
 body{
-    background-color: lightgrey;
+    background-image: url("../img/fondoweb3.jpg") ;
     margin: 0;
     height: 100%;
-}
-
-#titulo{
-    padding-top: 15%;
-    color: forestgreen;
-    text-align: center;
-    margin-left: 37%;
-    width:25%;
-    transition: 3s;
+    background-repeat: no-repeat;
+    background-size: cover  ;
 }
 
 #titulo:hover{
     transform: scale(1.5);
 }
 
-nav{
-    position: fixed;
-    bottom: 2%;
-    right: 30%;
-    width: 30%;
+#titulo{
+    position: absolute;
+    right: 25%;
+    padding-top: 3%;
+    color: forestgreen;
+    text-align: center;
+    transition: 3s;
+    width: 50%;
 }
 
-div{
+
+/*Barra de navegación*/
+
+nav{
+    background-color: lightblue;
+    position: fixed;
+    bottom: 1.5%;
+    right: 40.8%;
+    width: 21%;
+    height: 11.5%;
+    border-radius: 15px;
+}
+
+nav>div{
     position: fixed;
     bottom: 2%;
-
 }
 
 #iaw{
@@ -42,59 +50,48 @@ div{
     right: 49%;
 }
 
-div img{
+nav>div>a>img{
     height: 60px;
     transition: 0.5s;
 }
 
-div img:hover{
+nav>div>a>img:hover{
     height: 80px;
+    padding-top: 100px;
 }
 
-#proyectosasgbd{
-    display: none;
-    transition: 0.5s;
+div>div>div>a>img{
+    height: 50px;
 }
 
-#practicasasgbd{
-    display: none;
-    transition: 0.5s;
+div>div>div>a>img:hover{
+    height: 60px;
 }
 
-#asgbd:hover #proyectosasgbd{
+
+/*Botón asgbd*/
+
+#asgbd:hover #contenedorasgbd{
     display: inline;
     position: fixed;
     right: 42%;
     bottom: 16%;
 }
 
-#asgbd:hover #practicasasgbd{
-    display: inline;
-    position: fixed;
-    right: 42%;
-    bottom: 28%;
+#contenedorasgbd{
+    display: none;
 }
 
-#proyectosiaw{
+/*Boton iaw*/
+
+#contenedoriaw{
     display: none;
     transition: .5s;
 }
 
-#practicasiaw{
-    display: none;
-    transition: 0.5s;
-}
-
-#iaw:hover #proyectosiaw{
+#iaw:hover #contenedoriaw{
     display: inline;
     position: fixed;
     right: 56%;
     bottom: 16%;
-}
-
-#iaw:hover #practicasiaw{
-    display: inline;
-    position: fixed;
-    right: 56%;
-    bottom: 28%;
 }
