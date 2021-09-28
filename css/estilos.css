@@ -24,23 +24,77 @@ nav{
     width: 30%;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
+div{
+    position: fixed;
+    bottom: 2%;
+
 }
 
-li{
-    display: inline-block;
-    list-style-type: none;
-    padding-left: 4%;
-    padding-right: 4%;
+#iaw{
+    right: 56%;
 }
 
-ul li a img{
+#asgbd{
+    right: 42%;
+}
+
+#portfolio{
+    right: 49%;
+}
+
+div img{
     height: 60px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
-ul li a img:hover{
+div img:hover{
     height: 80px;
+}
+
+#proyectosasgbd{
+    display: none;
+    transition: 0.5s;
+}
+
+#practicasasgbd{
+    display: none;
+    transition: 0.5s;
+}
+
+#asgbd:hover #proyectosasgbd{
+    display: inline;
+    position: fixed;
+    right: 42%;
+    bottom: 16%;
+}
+
+#asgbd:hover #practicasasgbd{
+    display: inline;
+    position: fixed;
+    right: 42%;
+    bottom: 28%;
+}
+
+#proyectosiaw{
+    display: none;
+    transition: .5s;
+}
+
+#practicasiaw{
+    display: none;
+    transition: 0.5s;
+}
+
+#iaw:hover #proyectosiaw{
+    display: inline;
+    position: fixed;
+    right: 56%;
+    bottom: 16%;
+}
+
+#iaw:hover #practicasiaw{
+    display: inline;
+    position: fixed;
+    right: 56%;
+    bottom: 28%;
 }
