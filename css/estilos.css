@@ -114,6 +114,20 @@ main{
 }
 
 
+/*Sobre mi*/
+
+#sobremi{
+    text-align: center;
+}
+
+#sobremi p{
+    font-family: "Dosis", sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: left;
+}
+
+
 /*Apartados de informacion personal*/
 
 section>div>h1{
