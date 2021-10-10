@@ -22,6 +22,7 @@ body{
 
 #titulo:hover{
     transform: scale(1.5);
+    padding-top: 2%;
 }
 
 nav{
@@ -108,4 +109,12 @@ main{
     background-color: coral;
     left: 12%;
     height: 100%;
+}
+
+main>p{
+    font-family: "Dosis", sans-serif;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: left;
+    color: white;
 }

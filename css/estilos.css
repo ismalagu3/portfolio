@@ -9,10 +9,6 @@ body{
     background-size: cover  ;
 }
 
-#titulo:hover{
-    transform: scale(1.5);
-}
-
 #titulo{
     font-family: "Balsamiq sans", cursive;
     position: absolute;
@@ -22,6 +18,11 @@ body{
     text-align: center;
     transition: 1.5s;
     width: 50%;
+}
+
+#titulo:hover{
+    transform: scale(1.5);
+    padding-top: 2%;
 }
 
 
@@ -43,12 +44,12 @@ nav>div{
     bottom: 2%;
 }
 
-#iaw{
-    right: 56%;
-}
-
 #asgbd{
     right: 42%;
+}
+
+#iaw{
+    right: 56%;
 }
 
 #portfolio{
@@ -73,18 +74,17 @@ nav>div>div>div>a>img:hover{
     height: 60px;
 }
 
-
 /*Botón asgbd*/
+
+#contenedorasgbd{
+    display: none;
+}
 
 #asgbd:hover #contenedorasgbd{
     display: inline;
     position: fixed;
     right: 42%;
     bottom: 16%;
-}
-
-#contenedorasgbd{
-    display: none;
 }
 
 /*Boton iaw*/
@@ -99,6 +99,16 @@ nav>div>div>div>a>img:hover{
     position: fixed;
     right: 56%;
     bottom: 16%;
+}
+
+nav>div>div>div>div>a>img{
+    display: none;
+    height: 40px;
+    outline: solid black;
+}
+
+#proyectosiaw>a>img:hover #proyectosiaw>div>a>img{
+    display: inline;
 }
 
 
@@ -144,6 +154,8 @@ hr{
 
 #tres{
     padding-top: 5%;
+    display: flex;
+    justify-content: center;
 }
 
 #tres div{
@@ -161,19 +173,16 @@ hr{
     font-family: "Dosis", sans-serif;
 }
 
-#fortalezas{
-    position: absolute;
-    left: 3%;
-    border-right: solid red;
-}
-
 #logros{
-    position: absolute;
-    left: 35%;
+    padding: 0 1% 0 1%;
     border-right: solid red;
+    border-left: solid red;
 }
 
 #objetivos{
-    position: absolute;
-    left: 67%;
+    padding-left: 1%;
+}
+
+#fortalezas{
+    padding-right: 1%;
 }
